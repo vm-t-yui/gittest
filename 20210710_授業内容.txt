@@ -1,0 +1,23 @@
+﻿■間違ってmasterに直接コミットしてしまった
+・コミットの「打消しをコミット」する　★こっちを使いたい
+・コミットそのものをなかったことにする　★難易度高い
+
+■一連の流れのおさらい
+自分のブランチを作る
+自分のブランチをCheckout
+自分のブランチのファイルを変更
+変更をStage
+変更をCommit
+CommitをPush
+PullRequestを作る
+PullRequestをMerge ConfirmMerge
+ConflictしたらResolveしてCommitしてPush
+Merge
+Mergeされた最新のmasterをfetch
+自分のブランチに最新のmasterをMerge
+（または最新のmasterをCheckoutし、Pull→最新になった状態で新しいブランチを作る)
+
+■出てきた専門用語
+Revert:昔のコミットの打消しをコミットする（元に戻す）
+
+by Takeru Yui
